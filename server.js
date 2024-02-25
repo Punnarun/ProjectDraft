@@ -10,7 +10,7 @@ dotenv.config({ path: './config/config.env' });
 const app = express();
 
 // Mount routers
-app.use('/api/dentist', dentist);
+app.use('/api/dentists', dentist);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
