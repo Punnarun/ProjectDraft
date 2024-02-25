@@ -1,15 +1,16 @@
 const express = require('express');
 const dotenv = require('dotenv');
 
+// Route files
+const dentist = require('./routes/dentist');
+
 // Load env vars
 dotenv.config({ path: './config/config.env' });
 
 const app = express();
 
-app.get('/api/hello', (req, res) => {
-    // res.send('HELLO WORLD');
-    res.status(200).json({ success: true, msg: 'HELLOOO' });
-});
+// Mount routers
+app.use('/api/dentist', dentist);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
