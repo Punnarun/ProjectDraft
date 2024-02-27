@@ -4,54 +4,54 @@
 --dentist name
 [
   {
-    "name": "Dr. Jane Smith",
+    "name": "Jane Smith",
     "experience": 15,
     "expertise": "Cosmetic Dentistry"
   },
   {
-    "name": "Dr. Michael Johnson",
+    "name": "Michael Johnson",
     "experience": 8,
     "expertise": "Pediatric Dentistry"
   },
   {
-    "name": "Dr. Emily Davis",
+    "name": "Emily Davis",
     "experience": 20,
     "expertise": "Orthodontics"
   },
   {
-    "name": "Dr. Robert White",
+    "name": "Robert White",
     "experience": 12,
     "expertise": "Endodontics"
   },
   {
-    "name": "Dr. Sarah Brown",
+    "name": "Sarah Brown",
     "experience": 25,
-    "expertise": "Oral Surgery"
+    "expertise": "Orthodontics"
   },
   {
-    "name": "Dr. Brian Wilson",
+    "name": "Brian Wilson",
     "experience": 18,
     "expertise": "Periodontics"
   },
   {
-    "name": "Dr. Amanda Lee",
+    "name": "Amanda Lee",
     "experience": 10,
     "expertise": "Prosthodontics"
   },
   {
-    "name": "Dr. Christopher Miller",
+    "name": "Christopher Miller",
     "experience": 22,
     "expertise": "Dental Implants"
   },
   {
-    "name": "Dr. Jessica Taylor",
+    "name": "Jessica Taylor",
     "experience": 5,
     "expertise": "General Dentistry"
   },
   {
-    "name": "Dr. Matthew Harris",
+    "name": "Matthew Harris",
     "experience": 17,
-    "expertise": "Oral Pathology"
+    "expertise": "Dental Implants"
   }
 ]
 --
