@@ -36,3 +36,7 @@ process.on('unhandledRejection', (err, promise) => {
     server.close(() => process.exit(1));
 });
 
+//fiat 
+app.get('/fiat', (req, res) => {
+    res.send('Fiat');
+});
